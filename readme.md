@@ -151,7 +151,7 @@ The top 5 recommendation function was tested with the following movies:
 
 - **"The Godfather"**: Suggestions included "Scarface" and other classic crime films.
 
-![image](https://github.com/user-attachments/assets/b8374c89-e5ce-4913-960b-2457e3ea3337)
+   ![image](https://github.com/user-attachments/assets/b8374c89-e5ce-4913-960b-2457e3ea3337)
 
 
 ### Precision & Recall
