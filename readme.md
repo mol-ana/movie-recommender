@@ -156,7 +156,7 @@ The top 5 recommendation function was tested with the following movies:
 ### Precision & Recall
 evaluates the effectiveness of a movie recommendation system using two metrics: **Precision@k** and **Recall@k**.
 ---
-## 1. `precision_at_k` Function
+### `precision_at_k` Function
 
 ### Purpose:
 Calculates **Precision@k**, measuring how many of the top \( k \) recommended items are relevant (liked by the user).
@@ -179,7 +179,7 @@ The proportion of top \( k \) recommendations that are correct.
 
 ---
 
-## 2. `recall_at_k` Function
+### `recall_at_k` Function
 
 ### Purpose:
 Calculates **Recall@k**, measuring how many of the relevant items (liked by the user) are included in the top \( k \) recommendations.
@@ -202,7 +202,7 @@ The proportion of relevant movies included in the top \( k \) recommendations.
 
 ---
 
-## 3. Example Usage of Precision and Recall
+### Example Usage of Precision and Recall
 
 ### Inputs:
 - `recommended_movies`: A list of movies recommended by the system.
@@ -218,7 +218,7 @@ recall = recall_at_k(recommended_movies, actual_movies)
 
 print(f"Precision@5: {precision}")
 print(f"Recall@5: {recall}")
-
+```
 
 ### Model Selection
 
