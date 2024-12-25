@@ -155,7 +155,7 @@ The top 5 recommendation function was tested with the following movies:
 
 
 ### Precision & Recall
-evaluates the effectiveness of a movie recommendation system using two metrics: **Precision@k** and **Recall@k**.
+Evaluates the effectiveness of a movie recommendation system using two metrics: **Precision@k** and **Recall@k**.
 ---
 ### `precision_at_k` Function
 
@@ -221,6 +221,9 @@ print(f"Precision@5: {precision}")
 print(f"Recall@5: {recall}")
 ```
 
+Result for Precision & Recall:
+![image](https://github.com/user-attachments/assets/6684a13b-deaf-4e60-97e7-6db2c2639acc)
+
 ### Model Selection
 
 The content-based filtering method using cosine similarity worked well, providing highly relevant movie suggestions based on the content of the movies.
@@ -229,7 +232,9 @@ The content-based filtering method using cosine similarity worked well, providin
 
 ## Conclusion
 
-The movie recommendation system successfully generates relevant movie suggestions using a content-based filtering approach. By combining movie genres and overviews into a textual feature and calculating cosine similarity, the system provides recommendations based on movie content.
+The movie recommendation system successfully generates relevant movie suggestions using a content-based filtering approach. By combining movie genres and overviews into a textual feature and calculating cosine similarity, the system provides recommendations based on movie content. It has:
+- Precision@5: 0.8
+- Recall@5: 0.6666666666666666
 
 ### Future Work
 
