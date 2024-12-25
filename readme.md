@@ -75,7 +75,9 @@ The dataset used for this project was the **Movie Dataset** from Kaggle, which c
 ### Data Condition
 
 No missing data or duplicates were detected in the dataset, more details of condition of dataset is shown below:
+
 ![image](https://github.com/user-attachments/assets/11c3c231-9f56-44c9-bdb6-8524d89ebd45)
+
 Dataset has 3 data types:
 - int64
 - float64
