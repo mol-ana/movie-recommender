@@ -121,7 +121,7 @@ New dataframe were created with only id, title, and tags since genre & overview 
 
 ---
 
-## Modeling
+## Modeling & Result
 
 ### Algorithm Used
 
@@ -136,14 +136,6 @@ A function was developed to recommend movies. Given a movie title, the function:
 - Calculates the cosine similarity between the movie and all other movies in the dataset.
 - Returns the top 5 most similar movies based on the similarity score.
 
----
-
-## Evaluation
-
-### Evaluation Metrics
-
-The effectiveness of the recommendation system was evaluated qualitatively, as the project does not include explicit user feedback or ratings. Instead, recommendations were manually tested with movie titles such as "Iron Man," "The Shawshank Redemption," and "The Godfather" to assess the quality of the suggestions.
-
 ### Results
 
 The top 5 recommendation function was tested with the following movies:
@@ -157,6 +149,15 @@ The top 5 recommendation function was tested with the following movies:
 
    ![image](https://github.com/user-attachments/assets/b8374c89-e5ce-4913-960b-2457e3ea3337)
 
+
+
+---
+
+## Evaluation
+
+### Evaluation Metrics
+
+The effectiveness of the recommendation system was evaluated qualitatively, as the project does not include explicit user feedback or ratings. Instead, recommendations were manually tested with movie titles such as "Iron Man," "The Shawshank Redemption," and "The Godfather" to assess the quality of the suggestions.
 
 ### Precision & Recall
 Evaluates the effectiveness of a movie recommendation system using two metrics: **Precision@k** and **Recall@k**.
