@@ -108,6 +108,10 @@ During the initial exploration, some key observations included:
 
 The data underwent basic preprocessing steps such as combining the 'genre' and 'overview' columns to create a new feature called **tags**.
 
+### Selecting Relevant Column
+
+New dataframe were created with only id, title, and tags since genre & overview is already in the tags column.
+
 ### Feature Engineering
 
 **Tags** were created by concatenating the 'genre' and 'overview' columns, which gave a textual description of each movie. This feature was then transformed into a numerical representation using **Count Vectorization**, which helps in identifying relationships between words in the movie descriptions.
