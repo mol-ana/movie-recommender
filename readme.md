@@ -70,18 +70,20 @@ The dataset used for this project was the **Movie Dataset** from Kaggle, which c
 - vote_average: Movie vote average
 - vote_count: Movie vote count, which was uploaded and processed for movie recommendation purposes.
 
-[Download the Movie Dataset](https://www.kaggle.com/datasets/ahsanaseer/top-rated-tmdb-movies-10k/data)
+[Click here to view dataset source](https://www.kaggle.com/datasets/ahsanaseer/top-rated-tmdb-movies-10k/data)
 
 ### Data Condition
 
-No missing data or duplicates were detected in the dataset, more details of condition of dataset is shown below:
+Dataset condition: 
+- No missing data/value
+- No duplicates were detected in the dataset
+- Total dataset: 10.000
+- Dataset has 3 data types: int64, float64, object
+  
+For more details of condition of dataset is shown below:
 
 ![image](https://github.com/user-attachments/assets/11c3c231-9f56-44c9-bdb6-8524d89ebd45)
 
-Dataset has 3 data types:
-- int64
-- float64
-- object
 
 ### Features in the Dataset
 
@@ -90,16 +92,13 @@ The dataset contains the following important features:
 - **id**: Unique identifier for each movie.
 - **title**: Title of the movie.
 - **genre**: Genre of the movie.
+- **original_language**: Original language in which the movie is released
 - **overview**: Overview or plot summary of the movie.
 - **tags**: A combined field of movie genre and overview, used to create a textual representation of each movie.
-
-### Exploratory Data Analysis (EDA)
-
-During the initial exploration, some key observations included:
-
-- **Textual Features**: The 'tags' column was constructed by combining movie genres and overviews to create a comprehensive text feature.
-- **Data Format**: Movies had textual data, which was transformed into numeric vectors using Count Vectorization for similarity calculations.
-
+- **release_date**: Movie release date
+- **popularity**: Movie Popularity
+- **vote_average**: Movie vote average
+- **vote_count**: Movie vote count, which was uploaded and processed for movie recommendation purposes.
 ---
 
 ## Data Preparation
